@@ -51,17 +51,32 @@
 
 // Задание: Принять на вход 2 числа и проверить является ли первое чиcло квадратом второго.
 
-Console.WriteLine("Ведите число A: ");
-int A = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Ведите число B: ");
-int B = int.Parse(Console.ReadLine()!);
-if (A==B/A)
-{
-    Console.WriteLine("Да");
-}
-else
-{
-    Console.WriteLine("Нет");
-}
+// Console.WriteLine("Ведите число A: ");
+// int A = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Ведите число B: ");
+// int B = int.Parse(Console.ReadLine()!);
+// if (A==B/A)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Нет");
+// }
 
 // Задание: Выдать названия дней недели по заданному номеру
+
+/*
+Console.WriteLine("Ведите число от 1 до 7");
+int P = int.Parse(Console.ReadLine()!);
+
+if (P==1) Console.WriteLine("Понедельник ");
+if (P==2) Console.WriteLine("Вторник ");
+if (P==3) Console.WriteLine("Среда ");
+if (P==4) Console.WriteLine("Четверг ");
+if (P==5) Console.WriteLine("Пятница ");
+if (P==6) Console.WriteLine("Суббота ");
+if (P==7) Console.WriteLine("Воскресенье ");
+*/
+
+
