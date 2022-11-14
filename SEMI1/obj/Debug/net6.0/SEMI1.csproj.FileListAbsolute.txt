@@ -1,0 +1,15 @@
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\bin\Debug\net6.0\SEMI1.exe
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\bin\Debug\net6.0\SEMI1.deps.json
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\bin\Debug\net6.0\SEMI1.runtimeconfig.json
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\bin\Debug\net6.0\SEMI1.dll
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\bin\Debug\net6.0\SEMI1.pdb
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.csproj.AssemblyReference.cache
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.AssemblyInfoInputs.cache
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.AssemblyInfo.cs
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.csproj.CoreCompileInputs.cache
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.dll
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\refint\SEMI1.dll
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.pdb
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\SEMI1.genruntimeconfig.cache
+D:\GB\TEMPGB\WORKGB\CSHARP\SEMI1\obj\Debug\net6.0\ref\SEMI1.dll
