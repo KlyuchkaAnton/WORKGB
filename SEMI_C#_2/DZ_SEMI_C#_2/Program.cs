@@ -64,7 +64,7 @@ else
 /////// 7 -> да
 /////// 1 -> нет
 
-
+/*
 Console.WriteLine("Ведите число от 1 до 7");
 int P = int.Parse(Console.ReadLine()!);
 if (P < 1 || P > 7 )
@@ -81,3 +81,4 @@ if (P==5) Console.WriteLine("НЕТ - Пятница ");
 if (P==6) Console.WriteLine("ДА - Суббота ");
 if (P==7) Console.WriteLine("ДА - Воскресенье ");
 }
+*/
