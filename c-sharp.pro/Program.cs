@@ -29,3 +29,10 @@ Console.WriteLine(x.Equals(y));
 */
 
 
+ 
+// S1.2. Вывести на экран число e (основание натурального логарифма) с точностью до десятых. 
+
+double a2 = 1.68994;
+
+Console.WriteLine(Math.Round(a2, 1));
+

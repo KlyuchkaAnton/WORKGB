@@ -136,7 +136,9 @@ int GetCountNums (int number)
 
 /*
 int[] array = new int[8];
-Mass ( array ) ;
+
+Mass ( array ) ; // 
+
 Console.WriteLine ($"Массив: {String.Join("  ",array)}"); 
 int[] Mass ( int[] array )
     {
