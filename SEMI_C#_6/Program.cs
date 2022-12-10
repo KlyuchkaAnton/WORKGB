@@ -4,27 +4,129 @@
 //  (Теорема о неравенстве треугольника: каждая сторона треугольника меньше суммы двух других сторон.)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+ /*
+
 int A, B, C;
+ 
 
 Console.WriteLine("Введи сторону А:");
-A = int.Parse(Console.ReadLine()!);
+A =  int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введи сторону B:");
-B = int.Parse(Console.ReadLine()!);
+B =  int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Введи сторону C:");
 C = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"{Treugol(A, B, C)}");
+
+
+if (Treugol( A, B, C))
+Console.WriteLine("Такой треугольник существует");
+else
+Console.WriteLine("Такой треугольник НЕ существует");
+ 
+
+
 
 bool Treugol ( int A, int B, int C)
 {
-     if ((A+B)) > C 
+     if ((A+B) > C && (A+B) > B && (A+B) > A) 
+        {
+            return true;
+        }
+      else
+        {
+            return false;
+        }
+ 
+}
+
+ */
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Задача 42: Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+// (число делится на 2 до самого конца, а потом остатки записываются, начиная с конца)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+
+Console.Clear();
+
+Console.WriteLine("Введи десятичное число");  // 10 
+
+int A = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine(Rerenum(A)); // вызов метода
+
+//-----------------------------------------метод--------------------------------//
+string Rerenum(int num) // стринговый метод принимающий интовую переменную
 {
-return true;
+  string result = " >>>>>>>>>>>>   "; // стринговая переменная  
+
+  while (num != 0) // создаем условие чтобы наполнить стринговою переменную result до тех пор пока num не будет равен 0
+  {
+    int num1 = num % 2;  /////  10 % 2 = 0 //  5 % 2 = 2
+    Console.WriteLine($" num1 {num1}"); // 0 1
+
+    result = result + num1; // добавляем символ в стринговою переменную result
+     Console.WriteLine($" result {result}");  // 0 1
+
+Console.WriteLine( );  
+    num = num / 2; // чтобы работало условие while
+     Console.WriteLine($" num {num}");  // 5 2 
+
+  }
+  return result;
 }
-else
+
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+// (Числа Фибоначчи — числовая последовательность, каждый элемент которой равен сумме двух предыдущих.)
+// N = 5 --> 0 1 1 2 3 
+// N = 3 --> 0 1 1
+// N = 7 --> 0 1 1 2 3 5 8
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+Console.Clear();
+int n = 7;
+int first = 0;
+int second = 1;
+Console.Write($"{first} {second}");
+
+for (int i=3 ; i <= n; i++)
 {
-    return false;
+  int num = 0;
+  num = first + second;
+  Console.Write($" {num}");
+  first = second;
+  second = num;
 }
+*/
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+Console.Clear();
+int[] arr = GetArray(10);
+int[] arr2 = CopyArray(arr);
+Console.WriteLine($"[{String.Join(",", arr)}]");
+Console.WriteLine($"[{String.Join(",", arr2)}]");
+int[] CopyArray(int[] array){
+  int[] copyArray = new int [ array.Length ];
+  for ( int i = 0; i < array.Length; i++){
+      copyArray[i] = array [i];
+    } 
+    return copyArray;
 }
+int[] GetArray (int size, int minValue = 0, int maxValue = 10){
+  int[] array = new int[size];
+  for(int i=0; i<size; i++){
+      array[i] = new Random().Next(minValue, maxValue+1);
+  }
+  return array;
+}
+*/
+
